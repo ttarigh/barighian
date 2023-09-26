@@ -1,0 +1,289 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_specular",
+        "KHR_materials_ior"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "1lost_mary_complete.STL.cleaner.materialmerger.gles"
+        },
+        {
+            "mesh" : 0,
+            "name" : "Object_2.001"
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "1lost_mary_complete.STL.cleaner.materialmerger.gles.001"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Sketchfab_model",
+            "scale" : [
+                0.00277704861946404,
+                0.00277704861946404,
+                0.00277704861946404
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_specular" : {
+                    "specularColorFactor" : [
+                        1.0539367253819507,
+                        1.0539367253819507,
+                        1.0539367253819507
+                    ]
+                },
+                "KHR_materials_ior" : {
+                    "ior" : 1.4500000476837158
+                }
+            },
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 1
+                },
+                "metallicFactor" : 0.13071894645690918,
+                "roughnessFactor" : 0.10457516461610794
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.003",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 1
+                },
+                "metallicFactor" : 0.40522876381874084,
+                "roughnessFactor" : 0.10457516461610794
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Object_0.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 5,
+                        "NORMAL" : 6,
+                        "TEXCOORD_0" : 7,
+                        "TEXCOORD_1" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Black+Yellow+Leopard+Print+Seamless+Cover+WM+1",
+            "uri" : "BlackYellowLeopardPrintSeamlessCoverWM1.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "barwrap",
+            "uri" : "barwrap.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 16672,
+            "max" : [
+                34.835453033447266,
+                65.30745697021484,
+                16.735454559326172
+            ],
+            "min" : [
+                0.035453587770462036,
+                0.009094364941120148,
+                0.03545451909303665
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 16672,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 16672,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 16672,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 72702,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 181,
+            "max" : [
+                34.835453033447266,
+                47.00745391845703,
+                16.735454559326172
+            ],
+            "min" : [
+                0.035453587770462036,
+                6.007452487945557,
+                0.03545451909303665
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 181,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 181,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 181,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 384,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 200064,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 200064,
+            "byteOffset" : 200064,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 133376,
+            "byteOffset" : 400128,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 133376,
+            "byteOffset" : 533504,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 145404,
+            "byteOffset" : 666880,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2172,
+            "byteOffset" : 812284,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2172,
+            "byteOffset" : 814456,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1448,
+            "byteOffset" : 816628,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1448,
+            "byteOffset" : 818076,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 768,
+            "byteOffset" : 819524,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 820292,
+            "uri" : "barighian2.bin"
+        }
+    ]
+}
